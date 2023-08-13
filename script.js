@@ -24,7 +24,7 @@ calculate.addEventListener('click', async () => {
         const result = await response.json();
         console.log(result);
 
-        mainDiv.style.height = "200px";
+        mainDiv.style.height = "400px";
         percentageResult.innerHTML = `Love Percentage: ${result.percentage}%`;
         resultMessage.innerHTML = `Result: ${result.result}`;
 

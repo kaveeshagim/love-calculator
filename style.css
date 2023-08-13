@@ -7,7 +7,7 @@ body {
     background: url(./cool-background.png);
 }
 
-.main {
+#main {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -28,6 +28,8 @@ input{
     height: 30px;
     width: 300px;
     border: 1px solid lightseagreen;
+    text-indent: 5px;
+    font-size: 15px;
 }
 
 button{
